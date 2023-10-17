@@ -20,6 +20,12 @@ $(document).on("keypress", function () {
 		}
 });
 
+$("h1").on("click", function () {
+		if (gamePattern == 0) {
+			nextSequence()
+		}
+});
+
 function nextSequence() {
 	userClickedPattern = []
 
@@ -73,7 +79,7 @@ function startOver() {
 		$("body").removeClass("game-over");
 	}, 200)
 
-	$("h1").text("Game Over, Press Any Key to Restart");
+	$("h1").html("Game Over</br>Press Any Key to Restart</br>or Tap on The Title");
 	gamePattern = [];
 	level = 0;
 }
