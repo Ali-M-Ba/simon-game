@@ -52,7 +52,7 @@ body {
   background-color: grey;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   #level-title {
     font-size: 4rem;
   }
