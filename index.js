@@ -20,7 +20,7 @@ $(document).on("keypress", function () {
 		}
 });
 
-$("h1").on("click", function () {
+$("h1").on("tap", function () {
 		if (gamePattern == 0) {
 			nextSequence()
 		}
