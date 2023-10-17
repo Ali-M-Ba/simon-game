@@ -79,7 +79,7 @@ function startOver() {
 		$("body").removeClass("game-over");
 	}, 200)
 
-	$("h1").html("Game Over</br>Press Any Key to Restart");
+	$("h1").html("Game Over</br>Press Any Key to Restart</br>or Tap On the Title");
 	gamePattern = [];
 	level = 0;
 }
